@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tourney", sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+}
+
+#hero {
+    height: 350px;
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    background: #1D3557;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.hero-sub__title {
+    background: #457B9D;
+    width: 415px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.hero-sub__title:hover {
+    text-shadow: 0 0 2px black;
+}
+
+#activities-section {
+    background: #F1FAEE;
+    padding: 40px;
+}
+
+.activities-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1D3557;
+    margin-bottom: 55px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+}
+
+.activity {
+    color: #1D3557;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    transition: all 0.3s;
+}
+
+.activity:hover {
+    background: #A8DADC;
+    transform: translateY(10px)
+}
+
+.activity img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.activity h4 {
+    font-size: 16px;
+}
+
+.guide {
+    padding: 24px;
+    width: 400px;
+    background: #A8DADC;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    border-bottom: 6px solid #1D3557;
+}
+
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.guide-details p {
+    font-style: italic;
+}
